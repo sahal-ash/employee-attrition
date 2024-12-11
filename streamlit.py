@@ -18,7 +18,7 @@ def main():
     # Page title and header image
     st.title(":bar_chart: **Employee Attrition Prediction System**")
     try:
-        img = Image.open('pic3.jpg')
+        img = Image.open('pic1.jpg')
         st.image(img, caption="Analyze Employee Attrition with ML", width=850)
     except FileNotFoundError:
         st.warning("Image file 'pic1.jpg' not found. Please ensure the file exists in the correct path.")
