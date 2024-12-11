@@ -1,5 +1,4 @@
-import streamlit as st
-import sklearn
-import pickle
-from PIL import Image
-import pandas as pd
+streamlit
+scikit-learn
+pandas
+numpy
